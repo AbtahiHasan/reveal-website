@@ -1,0 +1,57 @@
+.navbar-brand {
+    font-size: 40px;
+}
+.banner {
+    height: 100vh;
+}
+.who-we-are, .services, .clients, .call-to-action, .our-team, .contact-us {
+    margin-top: 140px;
+}
+.slider-img-1 {
+    background-image: url(../image/carousel/1.jpg), linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6));
+    /* background-blend-mode: overlay; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.slider-img-2 {
+    background-image: url(../image/carousel/2.jpg), linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6));
+    /* background-blend-mode: overlay; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.slider-img-3 {
+    background-image: url(../image/carousel/3.jpg), linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6));
+    /* background-blend-mode: overlay; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.carousel-caption h5{
+    font-size: 4rem;
+}
+
+/* who-we-are */
+.who-we-are {
+    margin-top: 140px;
+}
+.Services .row > div{
+    margin: 0 10px;
+}
+.card  {
+    text-align: center;
+}
+.card img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid #0c2e8a ;
+    margin: auto;
+    margin-top: 30px;
+}
